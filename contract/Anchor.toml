@@ -2,7 +2,7 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-contract = "B6pbdUp5BMFHXVcytnWnNpwnGrMDDeFiaqPzMwcsPK9o"
+contract = "EZUpkjPuA238HjUYL871H5vyncxQc2Ac3i3hecSNrmxQ"
 
 [registry]
 url = "https://solana-pswap.pages.dev"

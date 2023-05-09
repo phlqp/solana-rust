@@ -7,7 +7,7 @@ use anchor_lang::prelude::*;
 
 use crate::instructions::*;
 
-declare_id!("B6pbdUp5BMFHXVcytnWnNpwnGrMDDeFiaqPzMwcsPK9o");
+declare_id!("EZUpkjPuA238HjUYL871H5vyncxQc2Ac3i3hecSNrmxQ");
 
 #[program]
 pub mod contract {

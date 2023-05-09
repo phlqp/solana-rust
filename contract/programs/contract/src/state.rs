@@ -1,6 +1,7 @@
 use anchor_lang::prelude::*;
 
 #[account]
+#[derive(InitSpace)]
 pub struct Vault {
     // Administrator's key
     pub owner: Pubkey,
@@ -22,8 +23,4 @@ pub struct User {
     pub balances: Vec<u64>,
     pub authority: Pubkey,
     pub bump: u8,
-}
-
-impl Vault {
-    pub const LEN: usize = 8 + 32 + 8 + 32 + 32 + 1 + 1 + 8;
 }

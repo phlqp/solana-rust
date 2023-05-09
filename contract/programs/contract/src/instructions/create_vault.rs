@@ -36,7 +36,7 @@ pub struct CreateVault<'info> {
     #[account(
         init,
         payer = owner,
-        space = Vault::LEN,
+        space = 8 + Vault::INIT_SPACE,
         seeds = [mint.key().as_ref()],
         bump
     )]

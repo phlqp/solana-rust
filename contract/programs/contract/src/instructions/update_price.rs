@@ -9,7 +9,6 @@ pub fn handler_update_price(ctx: Context<UpdatePrice>, new_price: u64) -> Result
     vault.time = solana_program::clock::Clock::get()?.unix_timestamp;
     msg!("Some variable: {:?}", vault.time);
 
-
     Ok(())
 }
 
