@@ -1,6 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-etherscan";
+import "@nomiclabs/hardhat-ethers";
 import "@typechain/hardhat";
 import dotenv from "dotenv";
 
@@ -36,10 +37,16 @@ const config: HardhatUserConfig = {
       url: process.env.GOERLI_RPC_URL || "https://goerli.blockpi.network/v1/rpc/public",
       accounts: process.env.OWNER_PRIVATE_KEY?[process.env.OWNER_PRIVATE_KEY]:[],
     },
+    ogoerli : {
+      chainId: 420,
+      url: process.env.OPTINISM_GOERLI_URL || "https://goerli.optimism.io/",
+      accounts: process.env.OWNER_PRIVATE_KEY?[process.env.OWNER_PRIVATE_KEY]:[],
+    },
   },
   etherscan: {
     apiKey: {
       goerli : process.env.GOERLI_ETHERSCAN_API_KEY || "J38CZNI82HYHR5Z93R36543AUFHVUM6D6E",
+      optimisticGoerli : process.env.OPTINISM_GOERLI_ETHERSCAN_API_KEY || "7CYAHYMPWYX1Z93ST19Z4YES9R5PM39BQH",
     }
   },
   typechain: {

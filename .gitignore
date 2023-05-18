@@ -13,3 +13,4 @@ solidity/artifacts
 solidity/abi
 solidity/typechain
 dapp/.vitepress/cache
+solidity/.env
