@@ -3,7 +3,7 @@ import {ref, onMounted, computed} from 'vue'
 import * as buffer from "buffer";
 
 import { Program, AnchorProvider, BN, utils, web3 } from '@coral-xyz/anchor';
-import idl from "../contract/target/idl/contract.json";
+import idl from "../solana/target/idl/contract.json";
 
 // @ts-ignore
 window.Buffer = buffer.Buffer;
