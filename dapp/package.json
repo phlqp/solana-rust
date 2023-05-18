@@ -23,5 +23,8 @@
     "viem": "^0.3.30",
     "vitepress": "^1.0.0-alpha.65",
     "wrangler": "^2.14.0"
+  },
+  "dependencies": {
+    "ethers": "^6.3.0"
   }
 }
