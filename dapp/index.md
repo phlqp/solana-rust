@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Swap
       link: /swap
+    - theme: brand
+      text: Claim
+      link: /claim
 
 features:
   - title: SOL to MOVE

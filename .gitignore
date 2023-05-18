@@ -8,8 +8,8 @@ test-ledger
 contract/yarn-error.log
 dapp/yarn-error.log
 dapp/yarn-error.log
-dapp/.vitepress/cache/deps/buffer.js.map
 solidity/cache
 solidity/artifacts
 solidity/abi
 solidity/typechain
+dapp/.vitepress/cache
