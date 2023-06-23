@@ -25,6 +25,7 @@
     "wrangler": "^2.14.0"
   },
   "dependencies": {
-    "ethers": "^6.3.0"
+    "ethers": "^6.3.0",
+    "web3modal": "^1.9.12"
   }
 }
